@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <div id="entire-form">
+    <p id="description">Tell us a little about yourself</p>
+    <form action="#" id="survey-form">
+      <div class="row">
+        <div class="left-el">
+          <label id="name-label" for="name">*Name:</label>
+        </div>
+        <div class="right-el">
+          <input type="text" id="name" placeholder="Enter your name" class="input-field" required><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-el">
+          <label id="email-label" for="email">*Email:</label>
+        </div>
+        <div class="right-el">
+          <input type="email" id="email" placeholder="Enter your email" class="input-field" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-el">
+          <label id="number-label" for="number">*Age:</label>
+        </div>
+        <div class="right-el">
+          <input type="number" min="1" max="100" id="number" placeholder="Age" class="input-field" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-el">
+          <label for="currentRole">Which option best describes your current role?</label>
+        </div>
+        <div class="right-el">
+          <select name="currentRole" id="dropdown">
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="noAnswer">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-el">
+          <label for="evaluation">Please evaluate our website:</label>
+        </div>
+        <div class="right-el">
+          <label><input name="radio-buttons" value="1" type="radio">Bad</label><br>
+          <label><input name="radio-buttons" value="2" type="radio">Good</label><br>
+          <label><input name="radio-buttons" value="3" type="radio">Excellent</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-el">
+          <label for="freeTime">How do you spend your free time?</label> 
+        </div>
+        <div class="right-el">
+          <label><input name="checkboxes" value="1" type="checkbox">Read books</label><br>
+          <label><input name="checkboxes" value="2" type="checkbox">Watch TV</label><br>
+          <label><input name="checkboxes" value="3" type="checkbox">Listen music</label><br>
+          <label><input name="checkboxes" value="4" type="checkbox">Go out with friends</label><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-el">
+          <label for="comments">Any Comments or Suggestions?</label>
+        </div>
+        <div class="right-el">
+          <textarea id="comments" rows="4" cols="30" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

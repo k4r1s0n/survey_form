@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color:	#d9bf8c;
+  font-family: 'Aleo', serif;
+}
+#entire-form {
+  background-color: #d9d9d9;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.left-el {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.right-el {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  padding: 5px;
+  margin-top: 10px;
+}
+.input-field {
+  width: 280px;
+}
