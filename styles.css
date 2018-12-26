@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color:	#d9bf8c;
+  background-color:	#4ddbff;
   font-family: 'Aleo', serif;
 }
 #entire-form {
@@ -11,6 +11,7 @@ body {
   max-width: 900px;
   padding: 10px;
   padding-top: 20px;
+  height: 800px;
 }
 .left-el {
   display: inline-block;
@@ -28,5 +29,11 @@ body {
   margin-top: 10px;
 }
 .input-field {
-  width: 280px;
+  width: 50%;
+}
+#comments {
+  width: 50%;
+}
+.row {
+  padding: 15px;
 }
